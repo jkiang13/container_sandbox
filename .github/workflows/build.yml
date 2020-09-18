@@ -8,8 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GITHUB_REGISTRY_ACCOUNT=jkiang13
-      DOCKER_ORG: sagebionetworks
+      GITHUB_REGISTRY_ACCOUNT: jkiang13
     steps:
 
       - name: Git Checkout
